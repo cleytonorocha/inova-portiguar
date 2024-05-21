@@ -51,6 +51,7 @@
               "entry": "server.ts"
             },
             "styles": [
+              "@angular/material/prebuilt-themes/purple-green.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
@@ -91,6 +92,7 @@
             ],
             "scripts": [],
             "styles": [
+              "@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.css"
             ],
             "tsConfig": "tsconfig.spec.json"

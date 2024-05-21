@@ -1,8 +1,8 @@
 section{
     position: relative;
     width: 100%;
-    height: 100vh; /* altura total da viewport */
-    background: url('../../assets/images/banner-bg.png') no-repeat center center;
+    height: 100vh;
+    background: url('../../assets/images/imagem2.jpg') no-repeat center center;
     background-size: cover;
 }
 section::before {
@@ -12,11 +12,17 @@ section::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* camada escura */
+    background: rgba(0, 0, 0, 0.387); 
     z-index: 1;
 }
 
 section > * {
     position: relative;
-    z-index: 2; /* garante que o conteúdo fique acima do overlay */
+    z-index: 2;
+}
+button{
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
