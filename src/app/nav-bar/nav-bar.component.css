@@ -39,7 +39,7 @@
     border: 1px;
     background-color: #f1faed;
 }
-button:hover{
+#nav-items>button:hover{
     color: white;
     background-color: green;
 }
