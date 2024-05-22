@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Informações do Criador
+
+O ngx-bootstrap estava dando erro direto com o CarouselModule, como só tinha versão para o angular 16, atualizei eu mesmo o problema. Consiste que o SSR do angular 17 dificulta a utilização do window/document (variaveis client), a configuração do para o hydration não se aplica a pacotes do ngx-bootstrap. Como na época não se tinha como configurar o pacote, adicionai o if(typeof window !== 'undefined) para que o erro pare de ser lançado no terminal. Não muda nada, somente os erros aparecendo no terminal. Cuidado na hora de atualizar o ngx. Caso atualize para pegar o SSR, pode resolver com o link: https://angular.io/guide/hydration.
