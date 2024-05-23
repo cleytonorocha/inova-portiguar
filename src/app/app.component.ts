@@ -5,7 +5,7 @@ import { SectionApresentationComponent } from "./section-apresentation/section-a
 import { PrincipaisPesquisasComponent } from './principais-pesquisas/principais-pesquisas.component';
 import { VenhaFazerParteComponent } from "./venha-fazer-parte/venha-fazer-parte.component";
 import { ColaboradoresComponent } from './colaboradores/colaboradores.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EventosComponent } from './eventos/eventos.component';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SectionApresentationComponent,
     PrincipaisPesquisasComponent,
     VenhaFazerParteComponent,
-    ColaboradoresComponent
+    ColaboradoresComponent,
+    EventosComponent
   ],
   encapsulation: ViewEncapsulation.None
 })

@@ -1,12 +1,12 @@
 section {
   background-color: green;
   margin-top: 10em;
-  margin-bottom: 10em;
+  padding-bottom: 10em;
 }
 img {
     width: 100%;
-    height: 500px; /* Altura fixa para todas as imagens */
-    object-fit: cover; /* Assegura que a imagem preencha o contêiner */
+    height: 500px; 
+    object-fit: cover; 
 }
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
