@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SectionApresentationComponent } from "./section-apresentation/section-apresentation.component";
@@ -16,7 +16,8 @@ import { VenhaFazerParteComponent } from "./venha-fazer-parte/venha-fazer-parte.
         SectionApresentationComponent,
         PrincipaisPesquisasComponent,
         VenhaFazerParteComponent
-    ]
+    ],
+    encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
   title = 'inova-portiguar';

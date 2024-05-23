@@ -13,7 +13,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
   styleUrl: './principais-pesquisas.component.css'
 })
 export class PrincipaisPesquisasComponent {
-  itemsPerSlide = 4;
+  itemsPerSlide = 3;
   images = [
     {image: 'assets/images/pesquisas/image1.png', title : 'Ciência no Brand!', shortMessage: 'Nos últimos anos, tem-se observado um aumento significativo no número de pessoas que associam suas pesquisas às marcas. A internet e as redes sociais tornaram as marcas mais acessíveis e interativas, enquanto a proliferação de dispositivos móveis facilita a busca por informações específicas. Além disso, estratégias de marketing digital, como SEO e marketing de conteúdo, ajudam as marcas a serem facilmente encontradas, construindo confiança e autoridade junto ao público. Essa mudança reflete um comportamento de consumo moderno, que valoriza a conveniência e a confiabilidade nas decisões de compra.'},
     {image: 'assets/images/pesquisas/image2.png', title : 'Ciência no Brand!', shortMessage: 'Nos últimos anos, tem-se observado um aumento significativo no número de pessoas que associam suas pesquisas às marcas. A internet e as redes sociais tornaram as marcas mais acessíveis e interativas, enquanto a proliferação de dispositivos móveis facilita a busca por informações específicas. Além disso, estratégias de marketing digital, como SEO e marketing de conteúdo, ajudam as marcas a serem facilmente encontradas, construindo confiança e autoridade junto ao público. Essa mudança reflete um comportamento de consumo moderno, que valoriza a conveniência e a confiabilidade nas decisões de compra.'},

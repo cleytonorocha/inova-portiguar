@@ -9,17 +9,3 @@ body {
 .text-align-justify {
   text-align: justify;
 }
-a > .carousel-control-prev-icon {
-  border-radius: 15px;
-  height: 25%;
-  padding: 2.5em;
-  margin-right: 15em;
-  background-color: rgba(0, 0, 0, 0.567);
-}
-a > .carousel-control-next-icon {
-  border-radius: 15px;
-  height: 25%;
-  padding: 2.5em;
-  margin-left:  15em;
-  background-color: rgba(0, 0, 0, 0.567);
-}
