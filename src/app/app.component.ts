@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SectionApresentationComponent } from "./section-apresentation/section-apresentation.component";
 import { PrincipaisPesquisasComponent } from './principais-pesquisas/principais-pesquisas.component';
+import { VenhaFazerParteComponent } from "./venha-fazer-parte/venha-fazer-parte.component";
 
 @Component({
     selector: 'app-root',
@@ -13,7 +14,8 @@ import { PrincipaisPesquisasComponent } from './principais-pesquisas/principais-
         RouterOutlet,
         NavBarComponent,
         SectionApresentationComponent,
-        PrincipaisPesquisasComponent
+        PrincipaisPesquisasComponent,
+        VenhaFazerParteComponent
     ]
 })
 export class AppComponent {
