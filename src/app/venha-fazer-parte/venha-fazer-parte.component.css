@@ -1,12 +1,11 @@
-section{
-    margin-top: 10em;
-    margin-bottom: 10em;
-  }
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: green;
-    font-size: 4em;
-    padding-bottom: 1.5em;
-    padding-top: 1.5em;
-
+section {
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: green;
+  font-size: 4em;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
 }

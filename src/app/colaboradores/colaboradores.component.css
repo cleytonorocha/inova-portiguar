@@ -1,0 +1,35 @@
+section {
+  background-color: green;
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+img {
+    width: 100%;
+    height: 500px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Assegura que a imagem preencha o contêiner */
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 4em;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+i:hover{
+  color: rgb(0, 101, 0);
+}
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 10px;
+}

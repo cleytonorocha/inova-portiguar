@@ -1,0 +1,31 @@
+<section class="row text-white text-center justify-content-center">
+    <h1>Colaboradores</h1>
+    <div class="col-md-10 ">
+        <owl-carousel-o [options]="customOptions">
+            @for (card of cardColaboradores; track $index) {
+                <ng-container>
+                    <ng-template carouselSlide [id]="$index.toString()">
+                        <hr>
+                    <img [src]="card.img" [alt]="card.img" [title]="card.subTitle" class="img-fluid rounded-top">
+                    <blockquote class="blockquote blockquote-custom bg-white py-5 px-2 text-dark shadow rounded-bottom">
+                        <div class="blockquote-custom-icon bg-info shadow-sm">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                        <p class=" font-monospace mb-0 mt-2 font-italic">{{ card.text }}</p>
+                        <div class="d-flex align-items-center justify-content-evenly mb-0 m-5 font-italic fa-2x">
+                            <a href="#" class="text-black"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="text-black"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="text-black"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="text-black"><i class="fa-brands fa-telegram"></i></a>
+                        </div>
+                        <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                            <cite title="Source Title">{{ card.subTitle }}</cite>
+                        </footer>
+                    </blockquote>
+                    <hr>
+                </ng-template>
+            </ng-container>
+            }
+        </owl-carousel-o>
+    </div>
+</section>
