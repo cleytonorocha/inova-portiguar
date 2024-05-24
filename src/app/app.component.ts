@@ -6,6 +6,7 @@ import { PrincipaisPesquisasComponent } from './principais-pesquisas/principais-
 import { VenhaFazerParteComponent } from "./venha-fazer-parte/venha-fazer-parte.component";
 import { ColaboradoresComponent } from './colaboradores/colaboradores.component';
 import { EventosComponent } from './eventos/eventos.component';
+import { InstituicoesComponent } from './instituicoes/instituicoes.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { EventosComponent } from './eventos/eventos.component';
     PrincipaisPesquisasComponent,
     VenhaFazerParteComponent,
     ColaboradoresComponent,
-    EventosComponent
+    EventosComponent,
+    InstituicoesComponent
   ],
   encapsulation: ViewEncapsulation.None
 })
