@@ -1,13 +1,13 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { SectionApresentationComponent } from "./section-apresentation/section-apresentation.component";
-import { PrincipaisPesquisasComponent } from './principais-pesquisas/principais-pesquisas.component';
-import { VenhaFazerParteComponent } from "./venha-fazer-parte/venha-fazer-parte.component";
-import { ColaboradoresComponent } from './colaboradores/colaboradores.component';
-import { EventosComponent } from './eventos/eventos.component';
-import { InstituicoesComponent } from './instituicoes/instituicoes.component';
-import { FooterComponent } from './footer/footer.component';
+import { NavBarComponent } from './home/nav-bar/nav-bar.component';
+import { SectionApresentationComponent } from "./home/section-apresentation/section-apresentation.component";
+import { PrincipaisPesquisasComponent } from './home/principais-pesquisas/principais-pesquisas.component';
+import { VenhaFazerParteComponent } from "./home/venha-fazer-parte/venha-fazer-parte.component";
+import { ColaboradoresComponent } from './home/colaboradores/colaboradores.component';
+import { EventosComponent } from './home/eventos/eventos.component';
+import { InstituicoesComponent } from './home/instituicoes/instituicoes.component';
+import { FooterComponent } from './home/footer/footer.component';
 
 @Component({
   selector: 'app-root',

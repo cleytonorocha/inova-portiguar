@@ -1,4 +1,4 @@
-import { CardInterface } from "../interfaces/CardInterface";
+import { CardInterface } from "../../interfaces/CardInterface";
 
 export const card : CardInterface = {
      title : "Faça parte do ecossistema",
