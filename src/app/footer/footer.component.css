@@ -1,0 +1,10 @@
+footer{
+    background-color: green;
+    color: whitesmoke;
+}
+a{
+    color: whitesmoke !important;
+}
+a:hover{
+    cursor: pointer;
+}

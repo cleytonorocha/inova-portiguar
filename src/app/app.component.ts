@@ -7,6 +7,7 @@ import { VenhaFazerParteComponent } from "./venha-fazer-parte/venha-fazer-parte.
 import { ColaboradoresComponent } from './colaboradores/colaboradores.component';
 import { EventosComponent } from './eventos/eventos.component';
 import { InstituicoesComponent } from './instituicoes/instituicoes.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ import { InstituicoesComponent } from './instituicoes/instituicoes.component';
     VenhaFazerParteComponent,
     ColaboradoresComponent,
     EventosComponent,
-    InstituicoesComponent
+    InstituicoesComponent,
+    FooterComponent
   ],
   encapsulation: ViewEncapsulation.None
 })

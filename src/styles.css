@@ -1,17 +1,33 @@
-@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
-@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
 
 * {
   box-sizing: border-box;
 }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  scroll-snap-type: none;
+}
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: 'Courier New', Courier, monospace ;
+  font-family: "Courier New", Courier, monospace;
 }
 .text-align-justify {
   text-align: justify;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: green;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000; 
+}
