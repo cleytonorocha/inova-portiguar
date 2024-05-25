@@ -1,6 +1,6 @@
-import { CardInterface } from "../interfaces/CardInterface";
+import { CardInterface } from "../../interfaces/CardInterface";
 
-export class CardEvento implements CardInterface {
+export class CardColaboradores implements CardInterface {
     title: string;
     img: string;
     subTitle: string;
@@ -13,4 +13,5 @@ export class CardEvento implements CardInterface {
         this.text = longText;
         this.link = linkUrl;
     }
+
 }
