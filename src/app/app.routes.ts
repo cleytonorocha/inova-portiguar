@@ -1,3 +1,9 @@
 import { Routes } from '@angular/router';
+import homeRoutes from './home/home.routes';
+import inovarRoutes from './inovar-potiguar/inovar.routes';
 
-export const routes: Routes = [];
+const home = 'Inovar Potiguar';
+export const routes: Routes = [
+    homeRoutes(home),
+    inovarRoutes(home)
+];

@@ -1,10 +1,13 @@
-
-#border-circle{
-    border: 1px;
-    background-color: #f1faed;
-}
-#nav-items>button:hover{
+.activeHostButton{
     color: white;
     background-color: green;
 }
 
+#border-circle {
+  border: 1px;
+  background-color: #f1faed;
+}
+#nav-items > button:hover {
+  color: white;
+  background-color: green;
+}

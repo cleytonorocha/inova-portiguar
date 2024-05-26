@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import  HomeComponent  from './home.component';
+import  InovarPotiguarComponent  from './inovar-potiguar.component';
 
-describe('HomeComponent', () => {
-  let component: HomeComponent;
-  let fixture: ComponentFixture<HomeComponent>;
+describe('InovarPotiguarComponent', () => {
+  let component: InovarPotiguarComponent;
+  let fixture: ComponentFixture<InovarPotiguarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HomeComponent]
+      imports: [InovarPotiguarComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(HomeComponent);
+    fixture = TestBed.createComponent(InovarPotiguarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
