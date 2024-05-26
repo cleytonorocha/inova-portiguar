@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-import { NavBarComponent } from '../nav-bar/nav-bar.component';
-import { ColaboradoresComponent } from './colaboradores/colaboradores.component';
-import { EventosComponent } from './eventos/eventos.component';
-import { FooterComponent } from '../footer/footer.component';
-import { InstituicoesComponent } from './instituicoes/instituicoes.component';
-import { PrincipaisPesquisasComponent } from './principais-pesquisas/principais-pesquisas.component';
-import { SectionApresentationComponent } from './section-apresentation/section-apresentation.component';
-import { VenhaFazerParteComponent } from './venha-fazer-parte/venha-fazer-parte.component';
+import { Component } from "@angular/core";
+import { ColaboradoresComponent } from "./colaboradores/colaboradores.component";
+import { EventosComponent } from "./eventos/eventos.component";
+import { FooterComponent } from "./footer/footer.component";
+import { InstituicoesComponent } from "./instituicoes/instituicoes.component";
+import { NavBarComponent } from "./nav-bar/nav-bar.component";
+import { PrincipaisPesquisasComponent } from "./principais-pesquisas/principais-pesquisas.component";
+import { SectionApresentationComponent } from "./section-apresentation/section-apresentation.component";
+import { VenhaFazerParteComponent } from "./venha-fazer-parte/venha-fazer-parte.component";
 
 @Component({
   selector: 'app-home',
@@ -24,6 +24,6 @@ import { VenhaFazerParteComponent } from './venha-fazer-parte/venha-fazer-parte.
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
+export default class HomeComponent {
 
 }
