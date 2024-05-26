@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FooterComponent } from '../home/footer/footer.component';
 import { NavBarComponent } from '../home/nav-bar/nav-bar.component';
-import { HistoryComponent } from "../inovarPotiguar/history/history.component";
+import { HistoryComponent } from "./history/history.component";
 
 @Component({
     selector: 'app-inovar-potiguar',
