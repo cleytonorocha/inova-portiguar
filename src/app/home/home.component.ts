@@ -7,7 +7,6 @@ import { NavBarComponent } from "./nav-bar/nav-bar.component";
 import { PrincipaisPesquisasComponent } from "./principais-pesquisas/principais-pesquisas.component";
 import { SectionApresentationComponent } from "./section-apresentation/section-apresentation.component";
 import { VenhaFazerParteComponent } from "./venha-fazer-parte/venha-fazer-parte.component";
-import { RouterOutlet } from "@angular/router";
 
 @Component({
   selector: 'app-home',
