@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-instituicoes',
   standalone: true,
   imports: [],
-  templateUrl: './instituicoes.component.html',
-  styleUrl: './instituicoes.component.css'
+  templateUrl: './instituicoes-home.component.html',
+  styleUrl: './instituicoes-home.component.css'
 })
 export class InstituicoesComponent {
 

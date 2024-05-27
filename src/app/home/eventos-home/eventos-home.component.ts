@@ -10,8 +10,8 @@ import { CardEvento } from './CardEvento';
     MatCardModule,
     MatButtonModule
   ],
-  templateUrl: './eventos.component.html',
-  styleUrl: './eventos.component.css'
+  templateUrl: './eventos-home.component.html',
+  styleUrl: './eventos-home.component.css'
 })
 export class EventosComponent {
 
