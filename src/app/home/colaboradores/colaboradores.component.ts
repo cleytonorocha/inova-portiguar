@@ -26,7 +26,6 @@ export class ColaboradoresComponent {
     new CardColaboradores("", "assets/images/profissionais/imagem4.jpg", "Someone famous in Source Title", this.longText, ""),
     new CardColaboradores("", "assets/images/profissionais/imagem5.jpg", "Someone famous in Source Title", this.longText, ""),
     new CardColaboradores("", "assets/images/profissionais/imagem6.jpg", "Someone famous in Source Title", this.longText, ""),
-    
   ]
 
   customOptions: OwlOptions = {

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { FooterComponent } from '../home/footer/footer.component';
-import { NavBarComponent } from '../home/nav-bar/nav-bar.component';
+import { FooterComponent } from '../footer/footer.component';
+import { NavBarComponent } from '../nav-bar/nav-bar.component';
 import { HistoryComponent } from "./history/history.component";
 
 @Component({

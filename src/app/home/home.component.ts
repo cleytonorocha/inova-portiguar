@@ -1,9 +1,9 @@
 import { Component } from "@angular/core";
 import { ColaboradoresComponent } from "./colaboradores/colaboradores.component";
 import { EventosComponent } from "./eventos-home/eventos-home.component";
-import { FooterComponent } from "./footer/footer.component";
+import { FooterComponent } from "../footer/footer.component";
 import { InstituicoesComponent } from "./instituicoes-home/instituicoes-home.component";
-import { NavBarComponent } from "./nav-bar/nav-bar.component";
+import { NavBarComponent } from "../nav-bar/nav-bar.component";
 import { PrincipaisPesquisasComponent } from "./principais-pesquisas/principais-pesquisas.component";
 import { SectionApresentationComponent } from "./section-apresentation/section-apresentation.component";
 import { VenhaFazerParteComponent } from "./venha-fazer-parte/venha-fazer-parte.component";

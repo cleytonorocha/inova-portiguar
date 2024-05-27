@@ -1,24 +1,19 @@
-section{
+section {
   margin-top: 10em;
   margin-bottom: 10em;
 }
 img {
-  display: block;
   width: 100%;
-  height: 25em;
-  object-fit: cover;
+  height: 200px; 
+  object-fit: cover; 
 }
-h1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: green;
   font-size: 4em;
   padding-top: 1.5em;
+}
+slide {
+  margin-right: 8px !important;
+}
 
-}
-slide{
-    margin-right: 8px !important;
-}
-#card-project:hover {
-  filter: brightness(90%) !impoRtant;
-  cursor: pointer;
-}

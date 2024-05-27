@@ -1,49 +1,42 @@
-<section class="row text-center">
-    <div class="col-md-12 d-flex flex-column justify-content-center align-items-center px-0">
-        <h1  class=" fw-bold my-5" >PRINCIPAIS PESQUISAS</h1>
-        <carousel class="col-md-11" [itemsPerSlide]="itemsPerSlide" [singleSlideOffset]="false" [interval]="0"
-            [indicatorsByChunk]="true">
-            <slide *ngFor="let slide of images; let index=index">
-                <div class="card" id="card-project">
-                    <img [src]="slide.image" class="img-thumbnail" alt="...">
-                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
-                        <h4 class="card-title">{{ slide.title }}</h4>
-                        <p class="card-text text-align-justify">{{ slide.shortMessage }}</p>
+<section class="container-fluid text-center">
+    <div class="row">
+        <h1 class=" fw-bold my-5">PRINCIPAIS PESQUISAS</h1>
+        <owl-carousel-o [options]="customOptions">
+            @for (card of cardColaboradores; track $index) {
+            <ng-container>
+                <ng-template carouselSlide [id]="$index.toString()">
+                    <hr>
+                    <hr>
+                    <div class="card" id="card-project">
+                        <img [src]="card.img" class="img-fluid rounded-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <h4 class="card-title">{{ card.title }}</h4>
+                            <p class="card-text text-align-justify">{{ card.text }}</p>
+                        </div>
                     </div>
-                </div>
-            </slide>
-        </carousel>
+                </ng-template>
+            </ng-container>
+            }
+        </owl-carousel-o>
     </div>
-    <div class="col-md-12 d-flex flex-column justify-content-center align-items-center px-0">
-        <h1 class=" fw-bold my-5" >PESQUISAS RECENTES</h1>
-        <carousel class="col-md-11" [itemsPerSlide]="itemsPerSlide" [singleSlideOffset]="false" [interval]="0"
-            [indicatorsByChunk]="true">
-            <slide *ngFor="let slide of images; let index=index">
-                <div class="card" id="card-project">
-                    <img [src]="slide.image" class="img-thumbnail" alt="...">
-                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
-                        <h4 class="card-title">{{ slide.title }}</h4>
-                        <p class="card-text text-align-justify">{{ slide.shortMessage }}</p>
+    <div class="row">
+        <h1 class=" fw-bold my-5">ÚLTIMAS PESQUISAS</h1>
+        <owl-carousel-o [options]="customOptions">
+            @for (card of cardColaboradores; track $index) {
+            <ng-container>
+                <ng-template carouselSlide [id]="$index.toString()">
+                    <hr>
+                    <hr>
+                    <div class="card" id="card-project">
+                        <img [src]="card.img" class="img-fluid rounded-top" alt="...">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <h4 class="card-title">{{ card.title }}</h4>
+                            <p class="card-text text-align-justify">{{ card.text }}</p>
+                        </div>
                     </div>
-                </div>
-            </slide>
-        </carousel>
+                </ng-template>
+            </ng-container>
+            }
+        </owl-carousel-o>
     </div>
 </section>
-
-
-<!-- 
-    <section class="container py-5">
-        <div class="row">
-            <tabset class="col bg-light" [justified]= true type="table">
-                <tab heading="2021"id="tab1">
-                    
-                </tab>
-                <tab heading="2022">Basic content 1</tab>
-                <tab heading="2023">Basic content 2</tab>
-                <tab heading="2024">Basic content 2</tab>
-                <tab heading="2025">Basic content 2</tab>
-                <tabset heading="2026">Basic content 2</tab>
-            </tabset>
-    </div>
-</section> -->
