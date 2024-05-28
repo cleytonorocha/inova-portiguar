@@ -1,0 +1,21 @@
+<app-nav-bar />
+<section class="row d-flex align-items-center py-5">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-5 text-center">
+            <h1 class="display-3">PARCEIROS DE INOVAÇÃO</h1>
+            <h3 class="fs-5">Conheça os principais parceiros do Inova Potiguar, que colaboram conosco para impulsionar a
+                inovação e o desenvolvimento no Rio Grande do Norte. Juntos, estamos transformando ideias em realidade e
+                promovendo o crescimento sustentável da nossa região.</h3>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        @for (logo of images; track $index) {
+            <div class="col-md-4 p-5">
+                <div class="container p-5">
+                    <a href="/instituicoes"><img src="{{ logo }}" alt="..." class="img-fluid"></a>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+<app-footer />
