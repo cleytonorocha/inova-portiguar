@@ -1,11 +1,13 @@
 import { Routes } from '@angular/router';
 import homeRoutes from './home/home.routes';
-import inovarRoutes from './inovar-potiguar/inovar.routes';
+import inovarRoutes from './inovar-potiguar/inova-potiguar.routes';
 import eventosRoutes from './eventos/eventos.routes';
+import inovacoesRoutes from './inovacoes/inovacoes.routes';
 
-const home = 'Inovar Potiguar';
+const home = 'Inova Potiguar';
 export const routes: Routes = [
     homeRoutes(home),
     inovarRoutes(home),
-    eventosRoutes(home)
+    eventosRoutes(home),
+    inovacoesRoutes(home)
 ];
