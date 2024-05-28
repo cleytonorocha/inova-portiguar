@@ -1,3 +1,36 @@
-<app-nav-bar/>
-
-<app-footer/>
+<app-nav-bar />
+<section class="row d-flex justify-content-center align-items-center text-white" id="presentation-section">
+  <div class="col-md-9 text-center bg-success p-5 rounded-5 shadow-lg" id="presentation-div">
+    <h1 class="fs-2 pb-4">Confira os eventos que estão impulsionando a inovação no Rio Grande do Norte!</h1>
+    <p class="fs-6 p-2 border-top">Fique por dentro das últimas novidades, palestras, workshops e encontros que
+      estão impulsionando a inovação
+      no nosso estado. Participe e conecte-se com a comunidade que está transformando o futuro do Rio Grande do
+      Norte!</p>
+  </div>
+  <div class="row d-flex justify-content-center">
+    <button type="button" class="btn btn-success btn-lg col-md-2 shadow-lg">Cadastre seu evento aqui!</button>
+  </div>
+</section>
+<section class="row align-items-center justify-content-center text-center">
+  @for (card of cards ;track $index) {
+  <div class="col-md-4 p-5">
+    <div class="card shadow">
+      <div class="card-body ">
+        <img class="card-img" src="{{card.img}}" alt="...">
+        <h5 class="card-title">{{ card.title }}</h5>
+        <p class="card-text text-align-justify ">{{ card.text }}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <p class="card-text pt-3 pb-1">
+        <small class="text-muted">
+          <i class="fas fa-eye"></i>1000
+          <i class="far fa-user"></i>admin
+          <i class="fas fa-calendar-alt"></i>Jan 20, 2018
+        </small>
+      </p>
+    </div>
+  </div>
+  }
+  <ngb-pagination class="d-flex justify-content-center py-5" [collectionSize]="100" [(page)]="page" [maxSize]="5" [boundaryLinks]="true" />
+</section>
+<app-footer />

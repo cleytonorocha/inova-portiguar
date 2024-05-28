@@ -33,11 +33,9 @@ body {
   background: linear-gradient(90deg, rgba(0,0,0,0.09800416748730745) 35%, rgba(0,0,0,0.3725139714088761) 100%)!important;
   position: relative;
 }
-.carousel-control-next-icon {
-}
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {

@@ -1,14 +1,10 @@
 import { Component } from '@angular/core';
-import {MatCardModule} from '@angular/material/card';
-import {MatButtonModule} from '@angular/material/button';
 import { CardEvento } from './CardEvento';
 
 @Component({
   selector: 'app-eventos',
   standalone: true,
   imports: [
-    MatCardModule,
-    MatButtonModule
   ],
   templateUrl: './eventos-home.component.html',
   styleUrl: './eventos-home.component.css'
