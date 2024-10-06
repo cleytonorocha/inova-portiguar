@@ -5,6 +5,7 @@ import eventosRoutes from './eventos/eventos.routes';
 import inovacoesRoutes from './inovacoes/inovacoes.routes';
 import instituicoesRoutes from './instituicoes/instituicoes.routes';
 import projetosRoutes from './projetos/projetos.routes';
+import contatoRoutes from './contato/contato.routes';
 
 const home = 'Inova Potiguar';
 export const routes: Routes = [
@@ -13,5 +14,6 @@ export const routes: Routes = [
     eventosRoutes(home),
     inovacoesRoutes(home),
     instituicoesRoutes(home),
-    projetosRoutes(home)
+    projetosRoutes(home),
+    contatoRoutes(home)
 ];

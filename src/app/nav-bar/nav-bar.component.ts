@@ -5,8 +5,8 @@ import { RouterLink, RouterLinkActive, RouterModule, RouterOutlet } from '@angul
   selector: 'app-nav-bar',
   standalone: true,
   imports: [
-    RouterLink,
-    RouterLinkActive
+      RouterLink,
+      RouterLinkActive
   ],
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.css'
